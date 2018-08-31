@@ -7,7 +7,7 @@ Vagrant.configure("2") do |config|
   # https://docs.vagrantup.com.
 
   # We use a ubuntu box with ubuntu 16.04 LTS based on bento/ubuntu-16.04
-  config.vm.box = "fhooe/hgb-elasticsearch"
+  config.vm.box = "fhooe/hgb-dbdev"
   config.vm.box_version = "~> 1.0"
   config.vm.boot_timeout = 1500
 
