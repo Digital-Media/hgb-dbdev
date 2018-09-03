@@ -1,7 +1,7 @@
 # hbg_dbdev
 Providing an Image to demonstrate elasticsearch in addtion to MariaDB
 
-## Based on [hgb_phpdev](https://github.com/Digital-Media/hgb-phpdev)
+## Based on [hgb-phpdev](https://github.com/Digital-Media/hgb-phpdev)
 
 ## Additional technologies and requirements
 
