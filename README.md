@@ -30,8 +30,6 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
     tcp6       0      0 :::22                   :::*                    LISTEN      -
     tcp6       0      0 :::443                  :::*                    LISTEN      -
 
-
-
 * ``stopES.sh`` stops ElasticSearch, when started in background
 
 
@@ -46,4 +44,3 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
     tcp6       0      0 :::80                   :::*                    LISTEN      -
     tcp6       0      0 :::22                   :::*                    LISTEN      -
     tcp6       0      0 :::443                  :::*                    LISTEN      -
-
