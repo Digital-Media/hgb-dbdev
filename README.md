@@ -12,8 +12,7 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
 ## Start and stop scripts for ElasticSearch (may take 20-30 seconds)
 
 * ``startES.sh`` starts ElasticSearch in background
-
-
+```
     netstat -apnt
     (Not all processes could be identified, non-owned process info
      will not be shown, you would have to be root to see it all.)
@@ -29,10 +28,11 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
     tcp6       0      0 ::1:9300                :::*                    LISTEN      2036/java
     tcp6       0      0 :::22                   :::*                    LISTEN      -
     tcp6       0      0 :::443                  :::*                    LISTEN      -
+```
 
 * ``stopES.sh`` stops ElasticSearch, when started in background
 
-
+```
     netstat -apnt
     (Not all processes could be identified, non-owned process info
      will not be shown, you would have to be root to see it all.)
@@ -44,3 +44,4 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
     tcp6       0      0 :::80                   :::*                    LISTEN      -
     tcp6       0      0 :::22                   :::*                    LISTEN      -
     tcp6       0      0 :::443                  :::*                    LISTEN      -
+```
