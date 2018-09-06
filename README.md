@@ -13,58 +13,37 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
 
 * ``startES.sh`` starts ElasticSearch in background
 
-``vagrant@vagrant:~$ netstat -apnt``
 
-``(Not all processes could be identified, non-owned process info``
+    netstat -apnt
+    (Not all processes could be identified, non-owned process info
+     will not be shown, you would have to be root to see it all.)
+    Active Internet connections (servers and established)
+    Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+    tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      -
+    tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -
+    tcp        0     36 10.0.2.15:22            10.0.2.2:55186          ESTABLISHED -
+    tcp6       0      0 127.0.0.1:9200          :::*                    LISTEN      2036/java
+    tcp6       0      0 ::1:9200                :::*                    LISTEN      2036/java
+    tcp6       0      0 :::80                   :::*                    LISTEN      -
+    tcp6       0      0 127.0.0.1:9300          :::*                    LISTEN      2036/java
+    tcp6       0      0 ::1:9300                :::*                    LISTEN      2036/java
+    tcp6       0      0 :::22                   :::*                    LISTEN      -
+    tcp6       0      0 :::443                  :::*                    LISTEN      -
 
-`` will not be shown, you would have to be root to see it all.)``
- 
-``Active Internet connections (servers and established)``
-
-``Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name``
-
-``tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      -``
-
-``tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -``
-
-``tcp        0     36 10.0.2.15:22            10.0.2.2:55186          ESTABLISHED -``
-
-``tcp6       0      0 127.0.0.1:9200          :::*                    LISTEN      2036/java``
-
-``tcp6       0      0 ::1:9200                :::*                    LISTEN      2036/java``
-
-``tcp6       0      0 :::80                   :::*                    LISTEN      -``
-
-``tcp6       0      0 127.0.0.1:9300          :::*                    LISTEN      2036/java``
-
-``tcp6       0      0 ::1:9300                :::*                    LISTEN      2036/java``
-
-``tcp6       0      0 :::22                   :::*                    LISTEN      -``
-
-``tcp6       0      0 :::443                  :::*                    LISTEN      -``
 
 
 * ``stopES.sh`` stops ElasticSearch, when started in background
 
-``vagrant@vagrant:~$ netstat -apnt``
 
-``(Not all processes could be identified, non-owned process info``
-
-`` will not be shown, you would have to be root to see it all.)``
- 
-``Active Internet connections (servers and established)``
-
-``Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name``
-
-``tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      -``
-
-``tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -``
-
-``tcp        0      0 10.0.2.15:22            10.0.2.2:55186          ESTABLISHED -``
-
-``tcp6       0      0 :::80                   :::*                    LISTEN      -``
-
-``tcp6       0      0 :::22                   :::*                    LISTEN      -``
-
-``tcp6       0      0 :::443                  :::*                    LISTEN      -``
+    netstat -apnt
+    (Not all processes could be identified, non-owned process info
+     will not be shown, you would have to be root to see it all.)
+    Active Internet connections (servers and established)
+    Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+    tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      -
+    tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      -
+    tcp        0      0 10.0.2.15:22            10.0.2.2:55186          ESTABLISHED -
+    tcp6       0      0 :::80                   :::*                    LISTEN      -
+    tcp6       0      0 :::22                   :::*                    LISTEN      -
+    tcp6       0      0 :::443                  :::*                    LISTEN      -
 
