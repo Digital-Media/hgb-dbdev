@@ -3,8 +3,8 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
 
 ## Based on hgb-phpdev
 
-- Look at [hgb-phpdev](https://github.com/Digital-Media/hgb-phpdev) for Installation, Troubleshooting and
-- Usage. Remember, that we use ``hgb-dbdev`` instead of ``hgb-phpdev`` and replace this path name where necessary.
+- Look at [hgb-phpdev](https://github.com/Digital-Media/hgb-phpdev) for **Installation**, **Troubleshooting** and **Usage**.
+- Remember, that we use ``hgb-dbdev`` instead of ``hgb-phpdev`` and replace this path name where necessary.
 
 ## Additional technologies and requirements
 
