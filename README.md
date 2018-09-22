@@ -11,6 +11,7 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
 * [ElasticSearch 6.3.1](https://www.elastic.co/guide/en/elasticsearch/reference/6.3/install-elasticsearch.html)
 * [Oracle JRE 10.0.2](http://www.oracle.com/technetwork/java/javase/downloads/jre10-downloads-4417026.html)
 * [German Word Decompounder](https://github.com/uschindler/german-decompounder)
+* [Redis 4.0](https://redis.io/)
 
 ## Start and stop scripts for ElasticSearch (may take 20-30 seconds)
 
