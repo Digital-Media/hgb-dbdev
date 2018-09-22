@@ -8,7 +8,7 @@ Vagrant.configure("2") do |config|
 
   # We use a ubuntu box with ubuntu 16.04 LTS based on bento/ubuntu-16.04
   config.vm.box = "fhooe/hgb-dbdev"
-  config.vm.box_version = "~> 1.0"
+  config.vm.box_version = "~> 2.0"
   config.vm.boot_timeout = 1500
 
   # If Vagrant always hangs during SSH to box during Startup, this may help if normal troubleshooting doesn't work
