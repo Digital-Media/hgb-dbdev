@@ -12,7 +12,7 @@ Providing an Image to demonstrate elasticsearch in addtion to MariaDB
 * [Oracle JRE SE](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * [German Word Decompounder](https://github.com/uschindler/german-decompounder)
 * [Redis 4.0](https://redis.io/)
-* [Redis Graph Extension](https://oss.redislabs.com/redisgraph/)
+* [Neo4J](https://neo4j.com)
 
 ## Start and stop scripts for ElasticSearch (may take 20-30 seconds)
 
